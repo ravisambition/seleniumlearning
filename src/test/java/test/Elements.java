@@ -33,5 +33,9 @@ public class Elements {
 		
 		
 		passwordTextBox.sendKeys("password");
+		
+		
+		driver.close();
+		driver.quit();
 	}
 }

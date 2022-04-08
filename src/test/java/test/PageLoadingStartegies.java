@@ -35,5 +35,8 @@ public class PageLoadingStartegies {
 		{
 			System.out.println("Text is "+element.getAttribute("value"));
 		}
+		
+		driver.close();
+		driver.quit();
 	}
 }
