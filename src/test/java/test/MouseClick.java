@@ -50,6 +50,6 @@ public class MouseClick {
 		  }
 		  selectObject.selectByIndex(2);
 		  Thread.sleep(2000);
-		//driver.quit();
+		  driver.quit();
 	}
 }
