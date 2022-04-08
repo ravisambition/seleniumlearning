@@ -20,5 +20,8 @@ public class FirstTest {
 		driver.manage().timeouts().scriptTimeout(Duration.ofMinutes(2));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get("https://google.com");
+		
+		driver.close();
+		driver.quit();
 	}
 }

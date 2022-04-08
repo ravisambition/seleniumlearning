@@ -53,5 +53,8 @@ public class AlertPopup {
 		Thread.sleep(5000);
 		alert2.accept();
 		
+		driver.close();
+		driver.quit();
+		
 	}
 }
